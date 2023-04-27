@@ -50,6 +50,9 @@ keymap("i", "jk", "<ESC>", opts)
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
+
+-- Little Bear King Dev Keymaps
+keymap("n", "<leader><leader>x", ":w<enter> :so %<enter>, opts")
 -- Plugins --
 
 -- NvimTree
