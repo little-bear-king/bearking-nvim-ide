@@ -52,7 +52,8 @@ keymap("v", ">", ">gv", opts)
 
 
 -- Little Bear King Dev Keymaps
-keymap("n", "<leader><leader>x", ":w<enter> :so %<enter>, opts")
+keymap("n", "<leader><leader>x", ":w<enter> :so %<enter>", opts)
+keymap("n", "<leader>t", "<Plug>PlenaryTestFile", opts)
 -- Plugins --
 
 -- NvimTree
