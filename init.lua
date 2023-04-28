@@ -1,5 +1,5 @@
 require "options"
 require "keymaps"
-require "Lazy"
-require "autocommands"
 require "globals"
+require "autocommands"
+require "Lazy"
