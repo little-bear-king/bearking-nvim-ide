@@ -50,7 +50,6 @@ keymap("i", "jk", "<ESC>", opts)
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
-
 -- Little Bear King Dev Keymaps
 keymap("n", "<leader><leader>x", ":w<enter> :so %<enter>", opts)
 keymap("n", "<leader>t", "<Plug>PlenaryTestFile", opts)
@@ -65,6 +64,7 @@ keymap("n", "<leader>st", ":Telescope live_grep<CR>", opts)
 keymap("n", "<leader>sp", ":Telescope projects<CR>", opts)
 keymap("n", "<leader>sb", ":Telescope buffers<CR>", opts)
 keymap("n", "<leader>sh", ":Telescope help_tags<CR>", opts)
+keymap("n", "<leader>sk", ":Telescope Keymaps<CR>", opts)
 
 -- Git
 keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)

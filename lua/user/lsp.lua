@@ -41,7 +41,7 @@ function M.config()
       client.server_capabilities.documentFormattingProvider = false
     end
 
-    if client.name == "lua_ls" then
+    if client.name == "sumneko_lua" then
       client.server_capabilities.documentFormattingProvider = false
     end
 

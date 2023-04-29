@@ -1,3 +1,4 @@
+---@return table
 return {
   settings = {
     Lua = {
@@ -16,3 +17,5 @@ return {
     },
   },
 }
+
+

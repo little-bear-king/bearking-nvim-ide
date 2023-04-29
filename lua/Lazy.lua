@@ -21,7 +21,7 @@ require("lazy").setup("user", {
   ui = { wrap = "true" },
   checker = { enabled = true },
   change_detection = { enabled = true },
-  debug = true,
+  debug = false,
   performance = {
     rtp = {
       disabled_plugins = {

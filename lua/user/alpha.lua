@@ -37,5 +37,4 @@ function M.config()
   dashboard.opts.opts.noautocmd = true
   alpha.setup(dashboard.opts)
 end
-
 return M
