@@ -5,12 +5,12 @@ M.servers = {
   "cssls",
   "html",
   "tsserver",
-  -- "pyright",
+  "pyright",
   "bashls",
   "jsonls",
   "yamlls",
   "marksman",
-  "jedi_language_server",
+  -- "jedi_language_server",
   "bashls",
 
 }

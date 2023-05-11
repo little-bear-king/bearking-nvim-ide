@@ -86,3 +86,9 @@ keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
 
 -- Lsp
 keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.format{ async = true }<cr>", opts)
+
+
+-- Python repl
+keymap('n', '<leader>o', ":SendPyObject<CR>", {noremap=true, silent=true})
+keymap('v', '<leader>n', ":<C-U>SendPySelection<CR>",{noremap=true, silent=true})
+keymap('n', '<leader>b', ":SendPyBuffer<CR>", {noremap=true,silent=true}) 
