@@ -51,3 +51,5 @@ vim.cmd([[
         let &shellpipe = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
         set shellquote= shellxquote=
 ]])
+
+vim.opt.updatetime = 100
