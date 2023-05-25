@@ -42,5 +42,12 @@ vim.opt.whichwrap:append "<,>,[,],h,l"          -- keys allowed to move to the p
 vim.opt.iskeyword:append "-"                    -- treats words with `-` as single words
 vim.opt.formatoptions:remove { "c", "r", "o" }  -- This is a sequence of letters which describes how automatic formatting is to be done
 vim.opt.linebreak = true
-vim.api.nvim_set_var('terminal_emulator', 'powershell')
 vim.g.git_command = 'C:\\Program Files\\Git\\bin\\git.exe'
+-- this block of code allows me to feed in some vimscript so pwsh is my shell
+vim.cmd([[
+  let &shell = has('win32') ? 'pwsh' : 'powershell'
+        let &shellcmdflag = '-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;'
+        let &shellredir = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
+        let &shellpipe = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
+        set shellquote= shellxquote=
+]])

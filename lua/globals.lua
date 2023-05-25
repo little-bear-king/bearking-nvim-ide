@@ -2,7 +2,7 @@
 --THANKS BE  TO TJ DEVRIES FOR THIS IDEA OF 
 --MAKING LUA PRINT TABLES EASIER
 -- ]]
-P = function (v) -- P is a function that takes the variable v. P(v) where v = the name of the think you want to print
+P = function (v) -- P is a function that takes the variable v. P(v) where v = the name of the thing you want to print
   print(vim.inspect(v))
   return v
 end
