@@ -1,4 +1,4 @@
 local M = {
-  {  dir = "/home/bearking/Documents/plugins/neovim/stackmap.nvim"},
+   {  dir = "https://github.com/little-bear-king/stackmap.git"}
 }
 return M
