@@ -11,7 +11,7 @@ function M.config()
   end
 
   toggleterm.setup {
-    size = 20,
+    size = 10,
     open_mapping = [[<c-\>]],
     hide_numbers = true,
     shade_terminals = true,
