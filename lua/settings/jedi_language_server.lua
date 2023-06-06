@@ -1,7 +1,8 @@
 return {
-  settintgs = {
-    cmd = "jedi-languager-server",
+  settings = {
+    cmd = "jedi-language-server",
     filetypes = 'python',
-    root = '/'
+    root = '/',
+    single_file_support = true
   }
 }
