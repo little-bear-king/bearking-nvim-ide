@@ -45,7 +45,7 @@ vim.opt.linebreak = true
 vim.g.git_command = 'C:\\Program Files\\Git\\bin\\git.exe'
 -- this block of code allows me to feed in some vimscript so pwsh is my shell
 vim.cmd([[
-  let &shell = has('win32') ? 'pwsh' : 'powershell'
+  let &shell = has('win32') ? 'pwsh' : 'cmd'
         let &shellcmdflag = '-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;'
         let &shellredir = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
         let &shellpipe = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'

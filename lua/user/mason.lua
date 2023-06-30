@@ -23,6 +23,7 @@ local settings = {
   },
   log_level = vim.log.levels.INFO,
   max_concurrent_installers = 4,
+  PATH = "prepend", --"skip" seems to cause the spawning error
 }
 
 function M.config()
