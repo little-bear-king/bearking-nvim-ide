@@ -9,10 +9,11 @@ M.servers = {
   -- "bashls",
   -- "jsonls",
   -- "yamlls",
-  "marksman",
+  -- "marksman",
   "jedi_language_server",
-  "clangd",
-  "zls"
+  -- "clangd",
+  "zls",
+  "hls",
 
 }
 
