@@ -11,7 +11,7 @@ M.servers = {
   -- "yamlls",
   -- "marksman",
   -- "jedi_language_server",
-  -- "clangd",
+  "clangd",
   -- "zls",
   -- "hls",
 
