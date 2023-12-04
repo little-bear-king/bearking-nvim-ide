@@ -12,8 +12,8 @@ M.servers = {
   -- "marksman",
   -- "jedi_language_server",
   -- "clangd",
-  "zls",
-  "hls",
+  -- "zls",
+  -- "hls",
 
 }
 
