@@ -13,6 +13,7 @@ M.servers = {
   -- "jedi_language_server",
   "clangd",
   "zls",
+  -- "rust-analyzer",
   -- "hls",
 
 }
